@@ -17,7 +17,7 @@ class Patient {
 	patientResidence nullable:false, blank:false
 	patientDob nullable:false, blank:false
 	patientID nullable:false, blank:false
-	patientRegistered nullable:false, blank:false
+	dateRegistered nullable:false, blank:false
 	patientPhone nullable:false, blank:false
     }
 }

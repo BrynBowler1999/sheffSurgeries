@@ -13,7 +13,7 @@ class Receptionist {
 	recepName nullable:false, blank:false
 	recepEmail nullable:false, blank:false
 	recepUsername nullable:false, blank:false
-	recepPassword nullable:false, blank:false, password=true
+	recepPassword nullable:false, blank:false, password:true
 	recepPhone nullable:false, blank:false
     }
 }

@@ -17,7 +17,7 @@ class Doctor {
 	qualification nullable:false, blank:false
 	position nullable:false, blank:false
 	doctorEmail nullable:false, blank:false
-	password nullable:false, blank:false, password=true
+	password nullable:false, blank:false, password:true
 	doctorOffice nullable:false, blank:false
 	doctorPhone nullable:false, blank:false
 	bio nullable:false, blank:false	
