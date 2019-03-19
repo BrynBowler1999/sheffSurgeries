@@ -4,5 +4,4 @@ class DoctorController {
 
 	def scaffold=Doctor
 
-    def index() { }
 }

@@ -10,6 +10,8 @@ class Patient {
 	String dateRegistered
 	int patientPhone
 
+	
+
     static constraints = {
 
 	patientName nullable:false, blank:false

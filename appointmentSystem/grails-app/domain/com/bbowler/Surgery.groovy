@@ -9,6 +9,7 @@ class Surgery {
 	int numberOfPatients
 	String description
 	Float openingTime
+	Boolean registeringNewPatients
 
     static constraints = {
 	
@@ -19,5 +20,6 @@ class Surgery {
 	numberOfPatients nullable:false, blank:false
 	description nullable:false, blank:false
 	openingTime nullable:false, blank:false
+	registeringNewPatients nullable:false, blank:false
     }
 }

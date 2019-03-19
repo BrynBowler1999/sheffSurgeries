@@ -4,5 +4,4 @@ class AppointmentController {
 
 	def scaffold=Appointment
 
-    def index() { }
 }
