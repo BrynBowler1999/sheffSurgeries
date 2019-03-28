@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-	def doctorTom=new Doctor(
+	/* def doctorTom=new Doctor(
 	fullName: 'Tom Skill',
 	qualification: 'PHD',
 	position: 'Dr',
@@ -116,7 +116,7 @@ class BootStrap {
 	appDate: new Date('05/03/2019'),
 	appTime: 12.00,
 	appDuration: 30,
-	roomNumber: 'A12654').save()
+	roomNumber: 'A12654').save() */
 	
     }
     def destroy = {

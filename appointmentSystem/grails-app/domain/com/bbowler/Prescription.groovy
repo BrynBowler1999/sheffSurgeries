@@ -8,7 +8,6 @@ class Prescription {
 	double totalCost
 	Date dateIssued
 	Boolean patientPaying
-	
 
     static constraints = {
 	
